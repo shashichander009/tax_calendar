@@ -188,16 +188,16 @@ img {
 
 
 .navigation-bar {
-  width: 100%;  /* i'm assuming full width */
-  height: 80px; /* change it to desired width */
+  width: 100%; 
 }
+
 .logo {
   display: inline-block;
   vertical-align: top;
   width: 150px;
-  height: 40px;
+  height: 30px;
   margin-right: 50%;
-  margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+  margin-top: 20px;    /* if you want it vertically middle of the navbar. */
 }
 
 @media (max-width: 75em) {
@@ -268,8 +268,10 @@ img {
 /* features section */
 
 .features-section {
-  text-align: center;
+  text-align: left;
   padding: 10rem 2rem;
+  margin-left:10%;
+  margin-right:10%;
 }
 
 .features-section-header {
@@ -284,43 +286,7 @@ img {
   margin-bottom: 6rem;
 }
 
-.project {
-  border: 1px solid;
-}
 
-.project:hover {
-  color: var(--white);
-}
-
-.project-title {
-  font-size: 2rem;
-  padding: 2rem 0.5rem;
-}
-
-/* Contact section */
-
-.contact-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  height: 30vh;
-  padding: 0 2rem;
-}
-
-.contact-links {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  margin: 4rem;
-  margin-top: 4rem;
-}
-
-.contact-details:hover {
-  text-decoration: underline;
-}
 
 /* Footer */
 

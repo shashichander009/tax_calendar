@@ -1,86 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tax Calendar</title>
-    <link rel="stylesheet" href="css/main.css">      
-</head>
-
-<body>
-
-    <nav class="navigation-bar">
-        <img class="logo" src="razorpaylogo.png">
-        <a href="https://dashboard.razorpay.com/#/access/signin">Log In</a>
-        <a href="https://dashboard.razorpay.com/#/access/signup?ref=ifsc" class="login-button"><p>Sign Up</p></a>
-    </nav>
-
-
-    <section class="welcome-section">
-        <h1>Tax Calendar</h1>
-        <p>Never miss any deadlines again!</p>
-        <!-- <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23039BE5&ctz=Asia%2FKolkata&showTz=1&showPrint=1&showNav=1&src=Y183cHBmNDZmMGVjMGZqbmpicG9nY2RuMHFra0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23616161" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
-        <div class="googleCalendar">    
-        <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%234285F4&ctz=Asia%2FKolkata&showPrint=0&showTz=0&showCalendars=0&showTabs=1&showDate=1&showTitle=0&src=Y19mMDQ4NnI3cDNpMmxhanJsbG8xbnRlMjg3NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237CB342" style="border:solid 1px #777" width="900" height="500" frameborder="0" scrolling="no"></iframe>
-        <!-- <a href="https://calendar.google.com/calendar/u/0?cid=Y183cHBmNDZmMGVjMGZqbmpicG9nY2RuMHFra0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
-         target="_blank">Add To My Account</a> -->
-        </div>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Tax Calendar</title>
+      <link rel="stylesheet" href="css/main.css">
+   </head>
+   <body>
+      <nav class="navigation-bar">
+         <img class="logo" src="razorpaylogo.png">
+         <a href="https://dashboard.razorpay.com/#/access/signin">Log In</a>
+         <a href="https://dashboard.razorpay.com/#/access/signup?ref=ifsc" class="login-button">
+            <p>Sign Up</p>
+         </a>
+      </nav>
+      <section class="welcome-section">
+         <h1>Tax Calendar</h1>
+         <p>Never miss any deadlines again!</p>
+           <div class="googleCalendar">
+            <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%234285F4&ctz=Asia%2FKolkata&showPrint=0&showTz=0&showCalendars=0&showTabs=1&showDate=1&showTitle=0&src=Y19mMDQ4NnI3cDNpMmxhanJsbG8xbnRlMjg3NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237CB342" style="border:solid 1px #777" width="900" height="500" frameborder="0" scrolling="no"></iframe>
+         </div>
          <a class="button" href=" https://calendar.google.com/calendar/u/0?cid=Y19mMDQ4NnI3cDNpMmxhanJsbG8xbnRlMjg3NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
-         target="_blank">Add to my Calendar</a>
-
-            </section>
-
-
-    <section id="features" class="features-section">
-        <h2 class="features-section-header">Features</h2>
-
-        <div class="features-grid">
-            <a href="#" target="_blank"
-                class="project project-tile">
-                <p class="project-title">
-                    <b>Data</b> <br>
-                    Directly sourced from the Income Tax Website
-                </p>
-            </a>
-
-            <a href="#" target="_blank" class="project project-tile">
-                <p class="project-title">
-                    <b>Updated</b> <br>
-                    Daily updated to ensure correct information
-                </p>
-            </a>
-
-            <a href="#" target="_blank"
-                class="project project-tile">
-                <p class="project-title">
-                    <b>Simple</b> <br>
-                    Adding calendar is just one click away
-                </p>
-            </a>
-        </div>
-
-    </section>
-
-    <section id="contact" class="contact-section">
-        <div class="contact-section-header">
-            <h2>Important Links</h2>
-        </div>
-        <div class="contact-links">
-            <a href="#" target="_blank" class="contact-details">GitHub</a>
-
-            <a href="#" target="_blank" class="contact-details">Data Source</a>
-
-            <a href="#" target="_blank"
-                class="contact-details">More Info</a>
-        </div>
-    </section>
-
-    <footer>
-        <h3>Project Developed for Xid</h3>
-    </footer>
-
-</body>
-
+            target="_blank">Add to my Calendar</a>
+      </section>
+      <h1>Upcoming Deadlines</h1>
+      <section id="features" class="features-section">
+         <div id="deadlines" class="features-grid">
+         </div>
+      </section>
+      <footer>
+         <h3>Project Developed for Xid</h3>
+      </footer>
+      <script src="script.js"></script>
+   </body>
 </html>
