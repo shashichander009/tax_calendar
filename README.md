@@ -1,18 +1,7 @@
 ### Tax Calendar
 
-Basic Portfolio website which works on all resolutions 
+Basic Tax Calendar Website
 
 ### Technology used
 
 HTML,CSS,JavaScript
-
-
-### Deployment
-
-
-### Desktop View
-![]()
-
-### Mobile View
-
-![]()
